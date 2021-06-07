@@ -7,6 +7,7 @@ from random import *
 import plotly.express as px
 import math
 #new
+#double-slit
 
 rslit = 4
 rscr = 20
