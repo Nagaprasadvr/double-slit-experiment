@@ -6,9 +6,9 @@ import plotly.express as px
 from random import *
 import plotly.express as px
 import math
-#new
+
 #double-slit
-#slit
+
 
 
 rslit = 4
