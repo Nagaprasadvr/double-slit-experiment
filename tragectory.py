@@ -6,6 +6,7 @@ import plotly.express as px
 from random import *
 import plotly.express as px
 import math
+#new
 
 rslit = 4
 rscr = 20
