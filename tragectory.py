@@ -10,9 +10,11 @@ import math
 #double-slit
 #slit
 
+
 rslit = 4
 rscr = 20
-particles = 100
+
+particles = input(int("\n enter the no of particles"))
 
 radius = []
 thetaangle = []
