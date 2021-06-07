@@ -8,6 +8,7 @@ import plotly.express as px
 import math
 #new
 #double-slit
+#slit
 
 rslit = 4
 rscr = 20
