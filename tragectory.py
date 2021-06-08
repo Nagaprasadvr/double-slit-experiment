@@ -12,7 +12,7 @@ import math
 
 
 rslit = 4
-rscr = 50
+rscr = int(input("\n enter the co ordinate of screen:"))
 
 particles = int(input(("\n enter the no of particles:")))
 
