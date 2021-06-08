@@ -12,9 +12,9 @@ import math
 
 
 rslit = 4
-rscr = 20
+rscr = 10
 
-particles = input(int("\n enter the no of particles"))
+particles = int(input(("\n enter the no of particles:")))
 
 radius = []
 thetaangle = []
@@ -76,6 +76,9 @@ for n in range(0, particles + 1):
         phiangle.append(phi)
         y.append(r * math.sin(math.radians(phi)))
         z.append(r * math.cos(math.radians(theta)))
+time=[]
+for i in np.arange(0,len(radius),1):
+    time.append(i)
 
 print("radius\n")
 print(radius)
@@ -83,10 +86,11 @@ print("theta\n")
 print(thetaangle)
 print("phi\n")
 print(phiangle)
-fig = px.scatter_3d(x=radius,y= y,z= z,title='double-slit-experiment',height=800)
+fig = px.scatter_3d(x=radius,y= y,z= z,title='double-slit-experiment', height=800)
 fig.update_traces(marker_size=2)
 fig.write_html("double_slit.html")
 print("figure saved ")
+print(len(radius))
 
 
 
