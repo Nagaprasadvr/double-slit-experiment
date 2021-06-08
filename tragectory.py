@@ -60,7 +60,7 @@ for n in range(0, particles + 1):
                 phi = randint(-30, -20)
             if rn == 4:
                 theta = randint(-70, 70)
-                phi = randint(-10, 10)
+                phi = randint(-5, 5)
             if rn == 5:
                 theta = randint(-70, 70)
                 phi = randint(20, 30)
