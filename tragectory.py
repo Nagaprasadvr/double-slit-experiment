@@ -12,7 +12,7 @@ import math
 
 
 rslit = 4
-rscr = 10
+rscr = 50
 
 particles = int(input(("\n enter the no of particles:")))
 
