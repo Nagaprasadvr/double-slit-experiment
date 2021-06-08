@@ -11,8 +11,8 @@ import math
 
 
 
-rslit = 4
-rscr = int(input("\n enter the co ordinate of screen:"))
+rslit = int(input("\n enter the distance of slits from source:"))
+rscr = int(input("\n enter the distance  of screen from source:"))
 
 particles = int(input(("\n enter the no of particles:")))
 
